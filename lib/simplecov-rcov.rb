@@ -149,5 +149,5 @@ class SimpleCov::Formatter::RcovFormatter
   end
 end
 
-$:.push File.expand_path("../", __FILE__)
+$:.push File.dirname(__FILE__)
 require 'simplecov-rcov/version'
